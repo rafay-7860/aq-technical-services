@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0B1F3A"/>
+  <circle cx="980" cy="120" r="220" fill="#E85D04" fill-opacity="0.18"/>
+  <circle cx="180" cy="520" r="180" fill="#E85D04" fill-opacity="0.12"/>
+  <rect x="80" y="80" width="88" height="88" rx="22" fill="#E85D04"/>
+  <text x="102" y="136" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">AQ</text>
+  <text x="80" y="260" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">AQ Technical Services</text>
+  <text x="80" y="330" fill="#F4F7FB" font-family="Arial, Helvetica, sans-serif" font-size="30">Technical Services &amp; Maintenance Solutions in Dubai</text>
+  <text x="80" y="520" fill="#E85D04" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">+971 55 869 0179</text>
+  <text x="80" y="560" fill="#D6DEEA" font-family="Arial, Helvetica, sans-serif" font-size="22">info@aqtechnicalservices.com</text>
+</svg>
