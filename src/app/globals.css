@@ -48,3 +48,12 @@ button:focus-visible {
   outline: 2px solid var(--orange);
   outline-offset: 3px;
 }
+
+@keyframes loader-sheen {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(320%);
+  }
+}

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, Phone, X } from "lucide-react";
+import { BrandLogo } from "@/components/BrandLogo";
 import { navLinks, quoteWhatsAppMessage, siteConfig, whatsappUrl } from "@/lib/site";
 
 export function Header() {
@@ -33,25 +34,21 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-[4.5rem] w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="group flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-navy text-sm font-bold tracking-wide text-white shadow-lg shadow-navy/20 transition group-hover:bg-navy-deep">
-            AQ
-          </span>
-          <span className="flex flex-col leading-tight">
-            <span
-              className={`font-display text-base font-semibold tracking-tight transition sm:text-lg ${
-                scrolled || open ? "text-navy" : "text-white"
-              }`}
-            >
-              AQ Technical Services
-            </span>
-            <span
-              className={`text-[11px] font-medium uppercase tracking-[0.18em] ${
-                scrolled || open ? "text-charcoal/60" : "text-white/70"
-              }`}
-            >
-              Dubai, UAE
-            </span>
+        <Link
+          href="/"
+          className="group flex items-center gap-2.5"
+          onClick={() => setOpen(false)}
+          aria-label="AQ Technical Services home"
+        >
+          <span
+            className={`rounded-xl px-1.5 py-1 transition ${
+              scrolled || open ? "bg-white/90" : "bg-white/95 shadow-lg shadow-navy/20"
+            }`}
+          >
+            <BrandLogo
+              priority
+              imageClassName="h-10 w-auto object-contain sm:h-11"
+            />
           </span>
         </Link>
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { BrandLogo } from "@/components/BrandLogo";
 import {
   defaultWhatsAppMessage,
   navLinks,
@@ -16,10 +17,9 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-orange text-sm font-bold tracking-wide">
-              AQ
+            <span className="rounded-xl bg-white px-2 py-1.5">
+              <BrandLogo imageClassName="h-12 w-auto object-contain" />
             </span>
-            <span className="font-display text-lg font-semibold">{siteConfig.name}</span>
           </div>
           <p className="max-w-sm text-sm leading-relaxed text-white/70">
             Professional technical services and maintenance solutions for residential and

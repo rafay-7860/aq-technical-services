@@ -3,6 +3,7 @@ import { Figtree, Sora } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
+import { PageLoader } from "@/components/PageLoader";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
@@ -75,6 +76,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${display.variable} ${body.variable} h-full`}>
       <body className="min-h-full bg-white font-sans text-charcoal antialiased">
         <JsonLd />
+        <PageLoader />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
