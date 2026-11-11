@@ -16,10 +16,8 @@ export function Footer() {
     <footer className="bg-navy text-white">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div className="space-y-4">
-          <div className="flex items-center gap-3">
-            <span className="rounded-xl bg-white px-2 py-1.5">
-              <BrandLogo imageClassName="h-12 w-auto object-contain" />
-            </span>
+          <div className="flex items-center">
+            <BrandLogo imageClassName="h-14 w-auto object-contain drop-shadow" />
           </div>
           <p className="max-w-sm text-sm leading-relaxed text-white/70">
             Professional technical services and maintenance solutions for residential and

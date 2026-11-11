@@ -36,20 +36,14 @@ export function Header() {
       <div className="mx-auto flex h-[4.5rem] w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="group flex items-center gap-2.5"
+          className="group flex items-center"
           onClick={() => setOpen(false)}
           aria-label="AQ Technical Services home"
         >
-          <span
-            className={`rounded-xl px-1.5 py-1 transition ${
-              scrolled || open ? "bg-white/90" : "bg-white/95 shadow-lg shadow-navy/20"
-            }`}
-          >
-            <BrandLogo
-              priority
-              imageClassName="h-10 w-auto object-contain sm:h-11"
-            />
-          </span>
+          <BrandLogo
+            priority
+            imageClassName="h-11 w-auto object-contain drop-shadow-sm sm:h-12"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary">

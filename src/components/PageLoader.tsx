@@ -70,9 +70,9 @@ export function PageLoader() {
                 transition={{ duration: 14, repeat: Infinity, ease: "linear" }}
               />
 
-              <div className="relative overflow-hidden rounded-[1.75rem] bg-white px-8 py-7 shadow-[0_30px_80px_rgba(11,31,58,0.12)] sm:px-10 sm:py-8">
+              <div className="relative overflow-hidden px-2 py-2">
                 <motion.div
-                  className="absolute inset-y-0 left-0 z-20 w-16 bg-gradient-to-r from-transparent via-orange/35 to-transparent"
+                  className="absolute inset-y-0 left-0 z-20 w-14 bg-gradient-to-r from-transparent via-orange/30 to-transparent"
                   initial={{ x: "-120%" }}
                   animate={{ x: "420%" }}
                   transition={{ duration: 1.35, repeat: Infinity, ease: "easeInOut", repeatDelay: 0.25 }}
